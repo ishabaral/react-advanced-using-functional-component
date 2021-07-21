@@ -5,12 +5,14 @@ import DisplayArticle from "./components/HOC_1/DisplayArticle";
 import ClickCounterHOC from "./components/HOC_2/ClickCounterHOC";
 import HoverCounterHOC from "./components/HOC_2/HoverCounterHOC";
 import HoverCounter from "./components/RenderProps/HoverCounter";
+import ProtalsDemo from "./components/Portals/ProtalsDemo";
 
 function App() {
   return (
     <div className="App">
-      <ClickCounterHOC />
-      <HoverCounterHOC />
+      <ProtalsDemo />
+      {/* <ClickCounterHOC />
+      <HoverCounterHOC /> */}
       {/* <DisplayArticle /> */}
 
       {/* <Counter>
