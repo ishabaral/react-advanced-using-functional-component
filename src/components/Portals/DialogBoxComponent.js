@@ -6,7 +6,7 @@ function DialogBoxComponent() {
       <button
         onClick={() =>
           alert(
-            "Congratulations!!! You created dialogbox componnt and rendered using portal"
+            "Congratulations!!! You created dialogbox component and rendered using portal"
           )
         }
       >
