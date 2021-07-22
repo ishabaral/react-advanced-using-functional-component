@@ -10,13 +10,30 @@ import EventBubblingDemo from "./components/EventBubbling/EventBubblingDemo";
 import Bubbling2 from "./components/EventBubbling/Bubbling2";
 import { ContextProvider } from "./components/ContextAPI/userContext";
 import ComponentA from "./components/ContextAPI/ComponentA";
+import { ColorContext } from "./components/useContextDemo/colors";
+import Home from "./components/useContextDemo/Home";
+import { colors } from "./components/useContextDemo/colors";
+import SetTimerExample from "./components/SetTimerExample";
+import CounterOne from "./components/UseReducer/CounterOne";
+import CounterTwo from "./components/UseReducer/CounterTwo";
+import CourseStatus from "./components/UseReducer/CourseStatus";
+import Count from "./components/Hooks/Count";
 
 function App() {
   return (
     <div className="App">
-      <ContextProvider value="Isha">
+      <Count />
+      {/* <CourseStatus /> */}
+      {/* <CounterTwo /> */}
+      {/* <CounterOne /> */}
+      {/* <SetTimerExample user="Isha" notification={10} /> */}
+
+      {/* <ColorContext.Provider value={colors}>
+        <Home />
+      </ColorContext.Provider> */}
+      {/* <ContextProvider value="Isha">
         <ComponentA />
-      </ContextProvider>
+      </ContextProvider> */}
 
       {/* <EventBubblingDemo /> */}
       {/* <ProtalsDemo /> */}
